@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.guessing-game{
+    background-color: dodgerblue;
+    width: 32rem;
+    height: 20rem;
+    padding: 1rem 1.5rem;
+    color: white;
+}
+.guessing-game h1{
+    text-align: center;
+    font-family:sans-serif;
+}
+.form{
+    margin: 1rem 0;
+}
+.form label {
+    font-size: 1.3rem;
+}
+#gameInput{
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    width: 44%;
+    outline: none;
+    color: white;
+    background-color: turquoise;
+    font-size: 1.3rem;
+}
+.checkbtn{
+    display: flex;
+    justify-content: flex-end;
+}
+#btn{
+    padding: 0.6rem 1rem;
+    border: none;
+    background-color: wheat;
+    font-weight: 400;
+    margin: 1rem 0.3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#btn:hover{
+    background-color: tomato;
+    color: rgb(14, 45, 54);
+}
+.guessing-game p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
